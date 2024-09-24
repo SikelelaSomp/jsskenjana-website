@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - JS Skenjana Senior Secondary School</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <img src="images/LOGO JS.jpg" alt="School Logo" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="academics.html">Academics</a></li>
+                    <li><a href="activities.html">Extracurricular</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Contact Us Section -->
+    <section class="contact-section">
+        <h1>Contact Us</h1>
+        <p>If you have any questions, please don't hesitate to reach out to us. Our friendly staff is here to help you!</p>
+
+        <!-- Contact Form -->
+        <div class="contact-form">
+            <form action="/submit_contact_form" method="POST">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
+        <!-- Teachers Contact Section -->
+        <h2>Meet Our Teachers</h2>
+        <div class="teachers-grid">
+            <div class="teacher-card">
+                <img src="images/teacher1.jpg" alt="Teacher Name">
+                <h3>Mr. John Doe</h3>
+                <p>Subject: Mathematics</p>
+                <p>Email: john.doe@jsskenjana.edu</p>
+                <p>Phone: +123-456-7891</p>
+            </div>
+            <div class="teacher-card">
+                <img src="images/teacher2.jpg" alt="Teacher Name">
+                <h3>Ms. Jane Smith</h3>
+                <p>Subject: Science</p>
+                <p>Email: jane.smith@jsskenjana.edu</p>
+                <p>Phone: +123-456-7892</p>
+            </div>
+            <div class="teacher-card">
+                <img src="images/teacher3.jpg" alt="Teacher Name">
+                <h3>Mr. Mike Brown</h3>
+                <p>Subject: English</p>
+                <p>Email: mike.brown@jsskenjana.edu</p>
+                <p>Phone: +123-456-7893</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer">
+            <h3>Contact Us</h3>
+            <p>Address: 123 School Lane, City, Country</p>
+            <p>Email: info@jsskenjana.edu</p>
+            <p>Phone: +123-456-7890</p>
+        </div>
+    </footer>
+
+</body>
+</html>
